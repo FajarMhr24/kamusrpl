@@ -1,0 +1,130 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* BODY */
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+/* JUDUL */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4fc3f7;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #0b1c26;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+/* LINK */
+a {
+    color: #4fc3f7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #81d4fa;
+}
+
+/* TOMBOL */
+button,
+.btn {
+    background: #1e88e5;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover,
+.btn:hover {
+    background: #1565c0;
+}
+
+/* FORM */
+form {
+    background: #10232e;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    background: #08161f;
+    border: 1px solid #1e88e5;
+    color: #fff;
+    border-radius: 6px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #9ecae1;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #08161f;
+}
+
+table th {
+    background: #1e88e5;
+    color: #fff;
+    padding: 12px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #1c313a;
+    text-align: center;
+}
+
+table tr:hover {
+    background: #0d2b3c;
+}
+
+/* AKSI */
+.action a {
+    margin: 0 5px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    background: #263238;
+}
+
+.action a:hover {
+    background: #1e88e5;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #90caf9;
+}
